@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;       /* Define a fonte do texto como Arial (ou uma fonte genérica sans-serif se Arial não estiver disponível) */
+    background-color: #f0f0f0;             /* Cor de fundo cinza bem claro */
+    color: #333;                           /* Cor do texto: cinza escuro (#333 é quase preto) */
+    text-align: center;                    /* Centraliza todo o conteúdo dentro do body horizontalmente */
+    padding: 5px;                          /* Espaçamento interno (margem interna) de 5 pixels em todos os lados */
+}
+
+
+
+
+h1 {
+    color: #0056b3;                        /* Cor do texto azul escuro (um tom padrão de azul) */
+}
+
+
+.foto {
+    background-size: cover;                /* Faz a imagem de fundo (se for aplicada) preencher completamente o container sem distorcer */
+    width: 300px;                          /* Largura fixa de 300 pixels */
+    border: 2px solid #ccc;                /* Borda cinza clara, sólida, de 2 pixels */
+    margin: 0px 0;                         /* Margens superior e inferior = 0; esquerda e direita = 0 */
+}
+
+
+.video {
+    width: 320px;                          /* Largura fixa de 320 pixels */
+    height: 240px;                         /* Altura fixa de 240 pixels */
+    border: 2px solid #ccc;                 /* Borda cinza clara, sólida, de 2 pixels */
+    margin: 10px 0;                         /* Margem superior e inferior de 10px; esquerda e direita = 0 */
+}
